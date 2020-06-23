@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn import datasets
-from pyimagesearch.neural_network.nn_backpropagation_SGD import NeuralNetwork
+from pyimagesearch.neural_network.ann.nn_backpropagation_SGD import NeuralNetwork
 import matplotlib.pyplot as plt
 import numpy as np
 

@@ -35,11 +35,11 @@ class NeuralNetwork:
             # the number of nodes in the current layer
             self.W.append(w / np.sqrt(layers[i]))
 
-        # the last two layers are a spcial case where the input
+        # the last two layers are a special case where the input
         # connections need a bias term the output does not
         w = np.random.randn(layers[-2] + 1, layers[-1])
         self.W.append(w / np.sqrt(layers[-2]))
-
+        print(len(self.W), len(self.layers))
     
     def sigmoid(self, x):
         """
