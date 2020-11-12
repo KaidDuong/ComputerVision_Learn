@@ -1,2 +1,5 @@
 *.pyc
 *.json
+hdf5/test.hdf5
+hdf5/train.hdf5
+hdf5/val.hdf5
